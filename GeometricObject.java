@@ -1,10 +1,10 @@
-/** 
-	Abstract base class for geometric shapes. 
+/**
+	Abstract base class for geometric shapes.
 	Implements Comparable<GeometricObject> and provides a static max method
 	to return the larger of two geometric objects based on area.
 */
 
-public abstract class GeometricObject implements Comparable<GeometricObject>
+public abstract class GeometricObject implements Comparable<GeometricObject> {
     private String color = "white";
     private boolean filled;
 
@@ -22,7 +22,7 @@ public abstract class GeometricObject implements Comparable<GeometricObject>
     public String getColor() {
         return color;
     }
-1
+
     // Setter method for color 
     public void setColor(String color) {
         this.color = color;
